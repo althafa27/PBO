@@ -24,12 +24,12 @@ public class Player {
     //membuat attack untuk menyerang
     void attack(){
         System.out.print(name + " is attacking ");
-        System.out.print("with damage " + damage);
+        System.out.println("with damage " + damage);
     }
     
     //membuat pertahanan
     void defense(){
-        System.out.println(name + " is detending ");
-        System.out.print(" with shield " + armor + "%");
+        System.out.print(name + " is detending ");
+        System.out.println(" with shield " + armor + "%");
     }
 }
